@@ -1,0 +1,44 @@
+body{
+    color:#333;
+    background-color: #ccc;
+    margin:1em 10%;
+}
+h1{
+    color:#333;
+    background-color:transparent;
+}
+a{
+    color: #c60;
+    background-color:transparent;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul{
+    padding:0;
+}
+li{
+    float: left;
+    padding:1em;
+    list-style: none;
+}
+#imagegallery{
+    list-style:none;
+}
+#imagegallery li{
+    display:inline;
+}
+#imagegallery li a img{
+    border: 0;
+    width: 63px;
+    height:45px;
+}
+.clr{
+    content: "";
+    height:0;
+    clear:both;
+}
+#placeholder{
+    display: block;
+    width: 630px;
+    height: 450px;
+}
